@@ -16,7 +16,6 @@ body {
 }
 
 .page-title {
-	font-size: 36px;
 	font-weight: 900;
 	margin-bottom: 30px;
 }
@@ -33,23 +32,13 @@ hr {
 	width: 100%;
 	margin: 15px auto;
 	transition: all 0.2s ease 0s;
-	cursor: pointer;
-}
-
-.nameLine {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 }
 
 .meme-name {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	font-weight: 900;
-	font-size: 24px;
-	cursor: pointer;
 }
 
 .state-icon {
@@ -88,8 +77,6 @@ hr {
 .meme-widget:hover .meme-img,
 .meme-toggle:checked ~ .meme-img {
 	visibility: visible;
-	width: 20em;
-	height: 20em;
 	margin: 15px 0;
 }
 
