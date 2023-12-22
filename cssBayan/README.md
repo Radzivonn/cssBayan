@@ -1,16 +1,21 @@
-ТЗ проекта
-* Все делается из Repository requirements and how to submit taskраздела +30
-* Компонент аккордеона располагается по центру экрана, с равными отступами слева и справа +10
-* Иконки, тексты мемов и изображения мемов существуют +5
-* Размещение мема, иконок и текста мема такое же, как в приведенных примерах гифок +5
-* Сделана плавная смена (переход) изображений и иконок мема +20
-* Существует адаптивный дизайн с тремя контрольными точками для мобильных устройств, планшетов и настольных компьютеров. Аккордеон корректно отображается на mobile 320x568, tablet 820x1180, desktop 1920×1080. (Примечание: точки останова не обязательно должны быть 320x568, 820x1180, 1920x1080). +10
-* Все визуальные эффекты при наведении курсора на мемы, при наведении мыши на мем и при выборе мема реализованы +10
-* Вся строка (текст, иконка и изображение мема) кликабельна +5
-* Курсор над эффектом мемов (наведения) существует только для устройств, поддерживающих наведение. +10
-* Курсор при наведении на ряды гармошки меняется +5
-* Используются только гибкие размеры rem, em, %, vh, vw, frи т.д... Гармошка отзывчивая +10
-* Все блоки/части аккордеона находятся в базовом потоке элементов дом. Все элементы не позиционируются с помощью top, left, right, bottom. floatне используется. Значение positionвсего static +5
-* Псевдоэлементы не используются (примечание 1: разрешены псевдоклассы; примечание 2: разрешены псевдоэлементы только из FontAwesome) +5
-* Изначально первый мем должен быть расширен +5
-* Размер шрифта меняется на каждом устройстве (мобильный, планшет, десктоп) +5
+# CssBayan
+#### Meme accordion with HTML and CSS only
+
+![image](https://github.com/Radzivonn/cssBayan/assets/106487154/74ff3a76-a973-4108-84a9-7f87b431514d)
+
+### Technical requirements
+* Everything is done from Repository requirements and how to submit task section
+* The accordion component is centered on the screen, with equal indents on the left and right
+* Icons, meme texts and meme images are exist
+* Placement of the meme, icons and meme text are the same as in provided example gif images
+* Smooth change (transition) of the meme images and icons is done
+* Responsive design with three breakpoints for mobile, tablet, and desktop exist. Accordion is displayed correctly at mobile 320x568, tablet 820x1180, desktop 1920×1080
+* All visual effects when the cursor is hovering over the memes, when the mouse is down on a meme, and when a meme is selected are implemented
+* The entire row (text, icon, and meme image) clickable
+* Mobile first approach is used - cursor over the memes (hover) effect exists only for desktop devices
+* The cursor when it is hovering over the rows of the accordion is changing
+* Only flexible dimensions are used rem, em, %, vh, vw, fr and etc... The accordion is responsive
+* All blocks/parts of the accordion are in base flow of the dom elements. All elements are not positioned with top, left, right, bottom. float is not used. The value of position is only static
+* Pseudo-elements are not used (note: pseudo-classes are allowed)
+* Initially, the first meme should be expanded
+* Font size is changed at each device (mobile, tablet, desktop)
